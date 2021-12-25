@@ -1,0 +1,26 @@
+{
+    "name": "Hexlar CryptoSite Checker",
+    "description": "Hexlar Crypto Site Validity Checker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "assets/icos/logo_16x16.png",
+        "48": "assets/icos/logo_48x48.png",
+        "128": "assets/icos/logo_128x128.png"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "storage"
+    ]
+}
